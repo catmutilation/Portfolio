@@ -246,11 +246,7 @@ li {
     margin-top: 20px;
     /* float: left; */
  }
-  .catvideo{
-    display:none
-  }
- 
-    main Text{
+   main Text{
   font-size: 16px;
   }
 
@@ -280,11 +276,11 @@ li {
     margin-bottom: 50px;g
     text-align: center; */
   }
-  html {
+  /* html {
     scroll-behavior: smooth;
-  }
+  } */
   
-  a {
+  /* a {
     position: fixed;
     bottom: 24px;
     right: 24px;
@@ -295,16 +291,16 @@ li {
     display: block;
     text-align: center;
     border-radius: 24px;
-  }
+  } */
   
-  a::before {
+  /* a::before {
     content: '\f062';
     font-family: 'Font Awesome 6 Free';
     font-size: 30px;
     font-weight: 900;
     color: #fff;
     line-height: 48px;
-  }
+  } */
   main h2 {
 
     font-size: 20px;
