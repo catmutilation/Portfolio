@@ -24,10 +24,6 @@ a {
   border: 2px solid;
   margin:0 auto;
 }
-
-  video{
-  margin:50px 0 0 -110px;
-}
   section {
   text-align: center;
 }
@@ -100,24 +96,20 @@ a {
   main{
 text-align: center;
 }
-
-.wrappergrid {
-  display: grid;
-  gap: 26px;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  margin-top: 6%;
-  margin-bottom: 50px;
-  text-align: center;
-}
- 
-.TOP{
-  margin-left: 200px;
- }
- 
- .formSec {
+.formSec {
   background-color: #ffffff;
   padding-bottom: 60px;
 }
+
+li {
+  list-style:none;/*デフォルトの指定を解除*/
+  display:inline-block;/*liをインラインブロック要素に*/
+  padding:10px 0; /*縦の余白を指定*/
+  width:400px;/*幅を指定*/
+  height:400px;/*高さを指定*/
+  vertical-align:middle;/*縦方向を中央揃え*/
+  text-align:center;/*横方向を中央揃え*/
+  }
 
  .item {
   margin-bottom: 20px;
@@ -127,7 +119,8 @@ text-align: center;
  .wrappergrid h2{
   margin-top: 20px;
  }
-  form {
+
+ form {
   width: 600px;
   margin: 0 auto;
 }
@@ -136,8 +129,8 @@ text-align: center;
   input[type="email"],
   select,
   textarea {
-  border: 1px solid #cccccc;
-  background-color: #ffffff;
+  border: 1px solid #000000;
+  background-color: #000000;
   width: 100%;
   margin-top: 5px;
   padding: 4px 8px;
@@ -173,12 +166,12 @@ text-align: center;
   text-align: center;
 }
   input[type="submit"] {
-  background-color: #121212;
+  background-color: #000000;
   color: #ffffff;
   padding: 18px 80px;
 }
   footer {
-  background-color: #735656;
+  background-color: hsl(0, 14%, 39%);
   color: #f3e9e5;
   padding: 14px 10px 20px;
   text-align: center;
@@ -195,7 +188,7 @@ text-align: center;
   z-index: -1;
 }
   input[type="submit"]:hover {
-  background-color: #c537a6;
+  background-color: #f80303;
   margin-left: 20px;
   transition-property: background-color,margin-left;
   transition-duration: 300ms;
@@ -287,7 +280,31 @@ text-align: center;
     margin-bottom: 50px;g
     text-align: center; */
   }
+  html {
+    scroll-behavior: smooth;
+  }
   
+  a {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+    background-color: #6002EE;
+    display: block;
+    text-align: center;
+    border-radius: 24px;
+  }
+  
+  a::before {
+    content: '\f062';
+    font-family: 'Font Awesome 6 Free';
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 48px;
+  }
   main h2 {
 
     font-size: 20px;
