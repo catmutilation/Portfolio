@@ -332,17 +332,12 @@ li {
  .wrappergrid .item img {
   width: 75%;
  }
-
  .wrappergrid h2{
   margin-top: 20px;
  }
- ul li .mune{
-  margin-bottom: -20px;
-}
-#headimg img {
-    vertical-align: bottom;
-}
-#headimg img {
-    display: block;
-}
+ ul li {
+  max-width: 100%;
+  margin-bottom: -50px;
+  margin-top: 50px;
+ }
 }
