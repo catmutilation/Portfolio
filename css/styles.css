@@ -269,6 +269,7 @@ li {
 
   .wrappergrid {
     display: block;
+    margin: 0 auto;
       /* display: grid; */
     /* ap: 26px;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
@@ -335,4 +336,13 @@ li {
  .wrappergrid h2{
   margin-top: 20px;
  }
+ ul li .mune{
+  margin-bottom: -20px;
+}
+#headimg img {
+    vertical-align: bottom;
+}
+#headimg img {
+    display: block;
+}
 }
