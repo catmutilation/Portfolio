@@ -220,6 +220,9 @@ li {
   nav ul Link{
     padding: -100x;
   }
+ .Link{
+    display:none
+  }
 
   main .namecard img {
     width: 100%;
