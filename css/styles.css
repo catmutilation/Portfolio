@@ -335,6 +335,10 @@ li {
  .wrappergrid h2{
   margin-top: 20px;
  }
- ul li{
-max-width: 100S%;}
+.menu img {
+max-width: 100%;
  }
+ li{
+  margin-bottom: 20px;
+ }
+}
