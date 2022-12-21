@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+ul {
+  display:flex;
+justify-content: center;
+}
   .onlySP {
   display: none;
 }
@@ -24,16 +28,16 @@ a {
   border: 2px solid;
   margin:0 auto;
 }
-  section {
+ 
+ section {
   text-align: center;
 }
 
-  .innerWrap {
+ .innerWrap {
   display: flex;
   width: 70%;
   margin: 0 auto;
 }
-
   section h2 {
   font-size: 30px;
   font-weight: bold;
@@ -71,17 +75,24 @@ a {
 }
 
   main .namecard  img {
+    border: 2px solid;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+ .contact img{
   border: 2px solid;
   width: 70%; 
   margin: 0 auto;
   margin-bottom: 20px;
-}  
+}
 
-  main h2 {
+ main h2 {
   margin-top: 20px;
   font-size: 30px;
   font-weight: bold
-
 } 
 
 .Link {
@@ -96,12 +107,13 @@ a {
   main{
 text-align: center;
 }
+
 .formSec {
   background-color: #ffffff;
   padding-bottom: 60px;
 }
 
-li {
+ li {
   list-style:none;/*デフォルトの指定を解除*/
   display:inline-block;/*liをインラインブロック要素に*/
   padding:10px 0; /*縦の余白を指定*/
@@ -154,32 +166,39 @@ li {
   .allergyCheck label {
   margin-right: 24px;
 }
-  textarea {
+
+ textarea {
   height: 148px;
   margin-bottom: 30px;
 }
-  form > p {
+
+ form > p {
   line-height: 1.4;
   margin-bottom: 20px;
 }
-  .submitBtn {
+
+ .submitBtn {
   text-align: center;
 }
-  input[type="submit"] {
+
+ input[type="submit"] {
   background-color: #000000;
   color: #ffffff;
   padding: 18px 80px;
 }
-  footer {
+
+ footer {
   background-color: hsl(0, 14%, 39%);
   color: #f3e9e5;
   padding: 14px 10px 20px;
   text-align: center;
 }
-  .dateSec {
+
+ .dateSec {
   margin-bottom: 480px;
 }
-  .dateSec::after {
+ 
+ .dateSec::after {
   position: fixed;
   left: 0;
   top: 0;
@@ -187,7 +206,8 @@ li {
   height: 100%;
   z-index: -1;
 }
-  input[type="submit"]:hover {
+ 
+ input[type="submit"]:hover {
   background-color: #f80303;
   margin-left: 20px;
   transition-property: background-color,margin-left;
@@ -209,36 +229,32 @@ li {
   }
 
   .Link {
-    /* display: flex;
-    justify-content: space-around; */
-    width: 80%;
-    /* margin: 0 auto;
-    padding: 10px 20px;
-    list-style:none; */
+   width: 80%;
   }
 
   nav ul Link{
     padding: -100x;
   }
- .Link{
+
+  .Link{
     display:none
   }
 
-  main .namecard img {
-    width: 100%;
-    display: block;
-    text-align: center;
-  }
-
-  main .PC img {
-    width: 100%;
+   main .namecard img {
     display: block;
   }
 
+   main .PC img {
+    display: block;
+  }
+ 
+  .contact img{
+margin-top: 30px;
+  display: block;
+  }
+ 
   .innerWrap {
     display: block;
-    /* width: 70%;
-    margin: 0 auto; */
   }
 
   .innerWrap img{
@@ -247,8 +263,7 @@ li {
     display: block;
        margin-bottom: 20px;
     margin-top: 20px;
-    /* float: left; */
- }
+  }
    main Text{
   font-size: 16px;
   }
@@ -258,11 +273,6 @@ li {
     margin-bottom: 20px;
     font-size: 14px;
     text-align: center;
-    /* margin: 0 0 0 200px;
-    padding: 0;
-    margin-top: 100px;
-    text-align: center;
-    margin-bottom: 20px;} */
   }
 
   .innerWrap .Text h2 {
@@ -273,75 +283,62 @@ li {
   .wrappergrid {
     display: block;
     margin: 0 auto;
-      /* display: grid; */
-    /* ap: 26px;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    margin-top: 6%;
-    margin-bottom: 50px;g
-    text-align: center; */
-  }
-  /* html {
-    scroll-behavior: smooth;
-  } */
-  
-  /* a {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    width: 48px;
-    height: 48px;
-    text-decoration: none;
-    background-color: #6002EE;
-    display: block;
-    text-align: center;
-    border-radius: 24px;
-  } */
-  
-  /* a::before {
-    content: '\f062';
-    font-family: 'Font Awesome 6 Free';
-    font-size: 30px;
-    font-weight: 900;
-    color: #fff;
-    line-height: 48px;
-  } */
-  main h2 {
+ }
 
+  main h2 {
     font-size: 20px;
     font-weight: bold
-    }
+  }
 
   form {
     width:350px;
   }
-    form input[type=”text”] {
+  form input[type=”text”] {
       width:100%;
       border: 2px solid #aaa;
       padding:4px 10px;
       margin:0;
   }
-    form input[type=”submit”] {
+  form input[type=”submit”] {
       width:100%;
       margin:0;
   }
-  .menu{
-    margin-bottom: 20px;
+  main.menu{
+    margin-bottom: 0px;
+    max-width: 100%;
   }
+  main.shopcard img{
+    margin-bottom: 0px;
+    width: 60%; 
+  }
+ main .namecard img{
+  margin-bottom: 0px;
+  width: 70%; 
+ }
  .wrappergrid .item {
   margin-bottom: 20px;
   margin-top: 20px;
  }
-
  .wrappergrid .item img {
   width: 75%;
  }
  .wrappergrid h2{
   margin-top: 20px;
  }
-.menu img {
-max-width: 100%;
+ .menu img {
+  max-width: 100%;
+ }
+
+ ul{
+  flex-direction: column;
  }
  li{
-  margin-bottom: 20px;
+  margin-top: 30px;
  }
+.shop{
+  margin-bottom:  50px;
+}
+.meishi{
+  margin-bottom:  50px;
+}
 }
