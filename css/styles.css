@@ -252,6 +252,7 @@ text-align: center;
    main .SNS img {
   width: 10%;
   display: flex;
+  display: inline-block
  }
    main .namecard img {
     display: block;
@@ -260,7 +261,7 @@ text-align: center;
    main .PC img {
     display: block;
   }
- 
+
   .contact img{
 margin-top: 30px;
   display: block;
