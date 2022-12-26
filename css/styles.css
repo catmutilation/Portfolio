@@ -222,6 +222,11 @@ text-align: center;
   transition-delay: 0ms;
 }
 
+.innerWrap img{
+  border-radius: 30px;
+}
+
+
 @media screen and (max-width:640px) {
 
   body{
@@ -233,8 +238,7 @@ text-align: center;
     height: 110px;
     margin-bottom: 20px;
   }
-
-  .Link {
+   .Link {
    width: 80%;
   }
 
@@ -248,8 +252,7 @@ text-align: center;
    main .SNS img {
   width: 10%;
   display: flex;
-  display: inline-block
-}
+ }
    main .namecard img {
     display: block;
   }
