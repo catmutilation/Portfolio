@@ -100,6 +100,9 @@ main .SNS img {
   display: flex;
   display: inline-block
 }
+.innerWrap img{
+  border-radius: 30px;
+}
 
 .Link {
     display: flex;
@@ -222,9 +225,6 @@ text-align: center;
   transition-delay: 0ms;
 }
 
-.innerWrap img{
-  border-radius: 30px;
-}
 
 
 @media screen and (max-width:640px) {
