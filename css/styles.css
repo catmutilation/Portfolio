@@ -113,8 +113,8 @@ main .SNS img {
     list-style:none;
 }
 
-  main{
-text-align: center;
+main{
+  text-align: center;
 }
 
 .formSec {
@@ -140,61 +140,6 @@ text-align: center;
  .wrappergrid h2{
   margin-top: 20px;
  }
-
- form {
-  width: 600px;
-  margin: 0 auto;
-}
-
-  input[type="text"],
-  input[type="email"],
-  select,
-  textarea {
-  border: 1px solid #000000;
-  background-color: #000000;
-  width: 100%;
-  margin-top: 5px;
-  padding: 4px 8px;
-}
-
-  input[type="radio"],
-  input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
-  vertical-align: baseline;
-  margin-right: 4px;
-}
-  .attendRadio {
-  text-align: center;
-  margin-bottom: 40px;
-}
-  .attendRadio label {
-  margin: 0 20px;
-  font-size: 24px;
-}
-  .allergyCheck label {
-  margin-right: 24px;
-}
-
- textarea {
-  height: 148px;
-  margin-bottom: 30px;
-}
-
- form > p {
-  line-height: 1.4;
-  margin-bottom: 20px;
-}
-
- .submitBtn {
-  text-align: center;
-}
-
- input[type="submit"] {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 18px 80px;
-}
 
  footer {
   background-color: hsl(0, 14%, 39%);
